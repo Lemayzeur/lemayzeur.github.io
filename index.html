@@ -1,304 +1,983 @@
-<!DOCTYPE HTML>
-<!--
-	Miniport 2.5 by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Lemayzeur</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" />
-		<script src="js/jquery.min.js"></script>
-		<script src="js/config.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/scripts.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel-noscript.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-desktop.css" />
-		</noscript>
-		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
-		<!--[if lte IE 7]><link rel="stylesheet" href="css/ie7.css" /><![endif]-->
-	</head>
-	<body>
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
 
-		<!-- Nav -->
-			<nav id="nav">
-				<ul class="container">
-					<li><a href="#top">Home</a></li>
-					<li><a href="#work">What I do</a></li>
-					<!--<li><a href="#portfolio">Portfolio</a></li>-->
-					<li><a href="#contact">Contact</a></li>
-				</ul>
-			</nav>
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Lub Lorry LAMYSERE</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
 
-		<!-- Home -->
-			<div class="wrapper wrapper-style1 wrapper-first">
-				<article class="container" id="top">
-					<div class="row">
-						<div class="4u">
-							<span class="me image image-full"><img src="images/profile.jpg" alt="" /></span>
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">  
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/vendor.css">     
+
+   <!-- script
+   ================================================== -->   
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+
+   <!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="favicon.png">
+
+</head>
+
+<body id="top">
+
+	<!-- header 
+   ================================================== -->
+   <header>   	
+   	<div class="row">
+
+   		<div class="top-bar">
+   			<a class="menu-toggle" href="#"><span>Menu</span></a>
+
+	   		<div class="logo">
+		         <a href="index.html">Lub Lorry</a>
+		      </div>		      
+
+		   	<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
+						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
+						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
+						<li><a class="smoothscroll"  href="#portfolio" title="">Portfolio</a></li>
+						<li><a class="smoothscroll"  href="#services" title="">Services</a></li>					
+						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>	
+						<li><a href="styles.html" title="">Style Demo</a></li>				
+					</ul>
+				</nav>    		
+   		</div> <!-- /top-bar --> 
+   		
+   	</div> <!-- /row --> 		
+   </header> <!-- /header -->
+
+	<!-- intro section
+   ================================================== -->
+   <section id="intro">   
+
+   	<div class="intro-overlay"></div>	
+
+   	<div class="intro-content">
+   		<div class="row">
+
+   			<div class="col-twelve">
+
+	   			<h5>Hello, World.</h5>
+	   			<h1>I'm Lub Lorry Lamysère.</h1>
+
+	   			<p class="intro-position">
+	   				<span>Full-stack developer</span> 
+	   				<span>Online Programming Teacher</span>
+	   			</p>
+
+	   			<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
+
+	   		</div>  
+   			
+   		</div>   		 		
+   	</div> <!-- /intro-content --> 
+
+   	<ul class="intro-social">        
+         <li><a target="_blank" href="https://facebook.com/lemayzeur"><i class="fa fa-facebook"></i></a></li>
+	      <li><a target="_blank" href="https://twitter.com/lemayzeur"><i class="fa fa-twitter"></i></a></li>
+	      <li><a target="_blank" href="https://instagram.com/lemayzeur"><i class="fa fa-instagram"></i></a></li>
+	      <li><a target="_blank" href="https://github.com/lemayzeur"><i class="fa fa-github"></i></a></li>
+      </ul> <!-- /intro-social -->      	
+
+   </section> <!-- /intro -->
+
+
+   <!-- about section
+   ================================================== -->
+   <section id="about">  
+
+   	<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>About</h5>
+   			<h1>Let me introduce myself.</h1>
+
+   			<div class="intro-info">
+
+   				<img src="images/profile-pic.jpg" alt="Profile Picture">
+
+   				<p class="lead">I'm an award winning Full-Stack Developer living in Port-au-Prince, Haiti. I have serious passion for programming, teaching and creating intuitive, dynamic tools that solve problems. Let's make something special.</p>
+   			</div>   			
+
+   		</div>   		
+   	</div> <!-- /section-intro -->
+
+   	<div class="row about-content">
+
+   		<div class="col-six tab-full">
+
+   			<h3>Profile</h3>
+   			<p>Haitian, 27 years old & single.</p>
+
+   			<ul class="info-list">
+   				<li>
+   					<strong>Fullname:</strong>
+   					<span>Lub Lorry LAMYSERE</span>
+   				</li>
+   				<li>
+   					<strong>Job:</strong>
+   					<span>Freelancer, Frontend Developer, Backend Developer & SQL Database Administrator</span>
+   				</li>
+   				<li>
+   					<strong>Website:</strong>
+   					<span>www.code9haiti.com/lub-lorry-lamysere</span>
+   				</li>
+   				<li>
+   					<strong>Email:</strong>
+   					<span>lub@code9haiti.com</span>
+   				</li>
+
+   			</ul> <!-- /info-list -->
+
+   		</div>
+
+   		<div class="col-six tab-full">
+
+   			<h3>Skills</h3>
+   			<hr>
+
+				<ul class="skill-bars">
+				   <li>
+				   	<div class="progress percent90"><span>90%</span></div>
+				   	<strong>HTML5</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent85"><span>85%</span></div>
+				   	<strong>CSS3</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent90"><span>90%</span></div>
+				   	<strong>ReactJS</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent90"><span>90%</span></div>
+				   	<strong>VueJS</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent70"><span>70%</span></div>
+				   	<strong>Angular</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent85"><span>85%</span></div>
+				   	<strong>C++</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent75"><span>75%</span></div>
+				   	<strong>PHP</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent95"><span>95%</span></div>
+				   	<strong>Python</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent85"><span>85%</span></div>
+				   	<strong>Flutter iOS/Android</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent90"><span>90%</span></div>
+				   	<strong>PostgreSQL</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent90"><span>90%</span></div>
+				   	<strong>MySQL</strong>
+				   </li>
+      
+				</ul> <!-- /skill-bars -->		
+
+   		</div>
+
+   	</div>
+
+   	<div class="row button-section">
+   		<div class="col-twelve">
+   			<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
+   			<a href="cv/resume.pdf" title="Download CV" class="button button-primary">Download CV</a>
+   		</div>   		
+   	</div>
+
+   </section> <!-- /process-->    
+
+
+   <!-- resume Section
+   ================================================== -->
+	<section id="resume" class="grey-section">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Resume</h5>
+   			<h1>More of my credentials.</h1>
+
+   		</div>   		
+   	</div> <!-- /section-intro--> 
+
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>Work Experience</h2>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+   				<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Remote Full-stack developer</h3>
+	   					<p>August 2021 - Present</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Talk pool</h4>
+	   					<p>Talkpool is a trusted partner to the world’s foremost telecommunication operators, system vendors and prime contractors.</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Remote Full-stack developer</h3>
+	   					<p>June 2020 - January 2021</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>CODELIME</h4>
+	   					<p>Software development company based in France.</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Back-end Developer / Mobile developer</h3>
+	   					<p>February 2020 - April 2021</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Wyzdev S.A</h4>
+	   					<p>Software development company.</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Front-end Developer</h3>
+	   					<p>January 2020 - June 2020</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>GVG (Global Voice Group)</h4>
+	   					<p>Software development company.</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+   			</div> <!-- /timeline-wrap -->   			
+
+   		</div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /resume-timeline -->
+   	
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>Education</h2>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Bachelor Degree</h3>
+	   					<p>September 2014 - July 2018</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Ecole Supérieure d’Infotronique d’Haïti (ESIH)</h4>
+	   					<p>Computer Science (BCS)</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Diploma</h3>
+	   					<p>September 2014 - June 2016</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Ecole Supérieure d’Infotronique d’Haïti (ESIH)</h4>
+	   					<p>Statistic & SME management</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+   			</div> <!-- /timeline-wrap -->   			
+
+   		</div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /resume-timeline -->
+		
+	</section> <!-- /features -->
+
+
+	<!-- Portfolio Section
+   ================================================== -->
+	<section id="portfolio">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Portfolio</h5>
+   			<h1>Check Out Some of My Recent Works.</h1>
+   		</div>   		
+   	</div> <!-- /section-intro--> 
+
+   	<div class="row portfolio-content">
+
+   		<div class="col-twelve">
+
+   			<!-- portfolio-wrapper -->
+	         <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+
+	         	<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="img/prikal.png" alt="Prikal">
+	                  <a href="#modal-01" class="overlay">	                  	           
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+		     					       <h3 class="folio-title">Prikal - Pricing Calculator</h3>	     					    
+		     					    	 <span class="folio-types">
+		     					       	  Back-end: Python/Django.
+		     					       	  Front-end: JavaScript 
+		     					       </span>
+		     					   </div>	                      	
+	                     </div>                    
+	                  </a>
+	               </div>	               
+	        		</div> <!-- /folio-item -->
+
+	        		<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="img/moncashify.png" alt="Moncashify">
+	               	<a href="#modal-02" class="overlay">              		                  
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Moncashify SDK</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Pipy Package built with Python
+		     					      </span>		     		
+		     					   </div> 	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->
+
+	            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="img/course.png"alt="Code9 Class">
+	                  <a href="#modal-03" class="overlay">             		                  
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Code9 Class - Online Learning Platform</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Online Learning Platform with integrated statistic tools<br>
+		     					       	  Back-end: Python/Django <br>
+		     					       	  Front-end: JavaScript / JQuery
+		     					      </span>		     		
+		     					   </div> 	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->
+
+	            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="img/matrimoine.png" alt="Beetle">
+	                  <a href="#modal-04" class="overlay">                  	                 
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Matrimoine</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Branding
+		     					      </span>		     		
+		     					   </div>  	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->     
+
+	        		<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="img/parc.png" alt="National Historic Park">
+	                  <a href="#modal-05" class="overlay">             		                  
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">National Historic Park</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	 iOS & Android App
+		     					      </span>		     		
+		     					   </div> 	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->
+
+	            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="img/agv.png" alt="Atlantis Global Vision">
+	                  <a href="#modal-06" class="overlay">
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Atlantis Global Vision</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Branding
+		     					      </span>		     		
+		     					   </div>	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->   
+
+	            <!-- modal popups - begin
+	            ============================================================= -->
+	            <div id="modal-01" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="img/prikal.png" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Prikal</h4>		      
+					      <p>An open source pricing calculator tools.</p>
+
+					      <div class="categories">Backend Development</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="http://prikal.code9haiti.com">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-01 -->
+
+				   <div id="modal-02" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="img/moncashify.png" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Moncashify SDK</h4>		      
+					      <p>Moncashify is a python sdk to process requests to the official MonCash API.</p>
+
+					      <div class="categories">Web Design</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="https://github.com/Lemayzeur/moncashify_sdk">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-02 -->
+
+				   <div id="modal-03" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="img/course.png" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Code9 Class</h4>		      
+					      <p>Online Learning System</p>
+
+					      <div class="categories">Full-stack web development</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="https://code9haiti.com/en/courses/">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-03 -->
+
+				   <div id="modal-04" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="img/matrimoine.png" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Matrimoine</h4>		      
+					      <p>The MAAC project proposes to constitute a digital database bringing together videos of interviews, creation as well as an active and passive bibliography on the notion of Matrimony, in particular Afro-American-Caribbean Matrimonial</p>
+
+					      <div class="categories">Full-stack web development</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="http://www.matrimoine.art">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-04 -->
+
+				   <div id="modal-05" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="img/park.png" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>National Historic Park</h4>		      
+					      <p>IOS and Android application that takes tourists to all of Haiti's historic parks</p>
+
+					      <div class="categories">Mobile Development</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="https://appadvice.com/app/parc-national-historique-ha-c3-afti/1530584293">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-05 -->
+
+				   <div id="modal-06" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/m-salad.jpg" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Atlantis Global Vision</h4>		      
+					      <p>Consulting Services, E-Learning & Market Services Hub to share Expertise, Opportunities & Jobs For Efficiency Markets Building and Shared Prosperity .</p>
+
+					      <div class="categories">Web development</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="https://www.agvgroup.org/">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-06 -->
+
+
+				   <!-- modal popups - end
+	            ============================================================= -->
+
+	         </div> <!-- /portfolio-wrapper --> 
+
+   		</div>  <!-- /twelve -->   
+
+   	</div> <!-- /portfolio-content --> 
+		
+	</section> <!-- /portfolio --> 
+
+	<!-- services Section
+   ================================================== -->
+	<section id="services">
+
+		<div class="overlay"></div>
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Services</h5>
+   			<h1>What Can I Do For You?</h1>
+
+   			<p class="lead">I develop technologically interesting and cleverly designed applications for the web, computer and mobile. I appreciate having comments on all aspects of a project..</p>
+
+   		</div>   		
+   	</div> <!-- /section-intro -->
+
+   	<div class="row services-content">
+
+   		<div id="owl-slider" class="owl-carousel services-list">
+
+	      	<div class="service">	
+
+	      		<span class="icon"><i class="icon-earth"></i></span>            
+
+	            <div class="service-content">	
+
+	            	 <h3>Linux/Windows development</h3>
+
+		            <p class="desc">
+		            	Application that can be installed on a computer with a Unix or Windows based operating system
+	         		</p>
+	         		
+	         	</div> 	         	 
+
+				</div> <!-- /service -->
+
+				<div class="service">	
+
+					<span class="icon"><i class="icon-window"></i></span>                          
+
+	            <div class="service-content">	
+
+	            	<h3>Web Development</h3>  
+
+		            <p class="desc">Web application development is the process involved with building a web application. It is more focused on interacting with the browser than standard engineering processes
+	         		</p>
+
+	            </div>	                          
+
+			   </div> <!-- /service -->
+
+			   <div class="service">
+
+			   	<span class="icon"><i class="icon-paint-brush"></i></span>		            
+
+	            <div class="service-content">
+
+	            	<h3>Mobile Development</h3>
+
+		            <p class="desc">Application that can be installed on mobile devices with a iOS or Android based operating system
+	        			</p> 
+
+	            </div> 	            	               
+
+			   </div> <!-- /service -->
+
+				<div class="service">
+
+					<span class="icon"><i class="icon-toggles"></i></span>	              
+
+	            <div class="service-content">
+
+	            	<h3>UI/UX Design</h3>
+
+		            <p class="desc">I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences. 
+	         		</p> 
+	         		
+	            </div>                
+
+				</div> <!-- /service -->
+
+			   <div class="service">
+
+			   	<span class="icon"><i class="icon-image"></i></span>	            
+
+	            <div class="service-content">
+
+	            	<h3>Database Development</h3>
+
+		            <p class="desc">Design, develop and improve an SQL-based database
+	        			</p> 
+
+	            </div>	               
+
+			   </div> <!-- /service -->
+
+			   <div class="service">
+
+			   	<span class="icon"><i class="icon-chat"></i></span>	   	           
+
+	            <div class="service-content">
+
+	            	 <h3>Web Consultancy</h3>
+
+		            <p class="desc">
+		            	Web consultants take on the end-to-end website development process · That includes areas like SEO, UX/UI, software development and many more
+	        			</p> 
+	        			
+	            </div>	               
+
+			   </div> <!-- /service -->
+
+	      </div> <!-- /services-list -->
+   		
+   	</div> <!-- /services-content -->
+		
+	</section> <!-- /services -->	
+
+
+	<!-- stats Section
+   ================================================== -->
+	<section id="stats" class="count-up">
+
+		<div class="row">
+			<div class="col-twelve">
+
+				<div class="block-1-4 block-s-1-3 block-tab-1-2 block-mob-full stats-list">
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-pencil-ruler"></i>
 						</div>
-						<div class="8u">
-							<header>
-								<h1>Hey there! I'm <strong>Ondrej Zvara</strong>.</h1>
-							</header>
-							<p>{ I'm a web-developer and a GIS student. I love to play with open-source web-based GIS tools. }</p>
-							<a href="#work" class="button button-big">Check what I do</a>
-						</div>
-					</div>
-				</article>
-			</div>
 
-		<!-- Work -->
-			<div class="wrapper wrapper-style2">
-				
-				<article id="work">
-					<header>
-						<h2>I love to play with web maps.</h2>
-					</header>
-					<div class="container">
-						<div class="row">
-							<div class="4u">
-								<section class="box box-style1">
-									<span class="fa featured fa-pencil"></span>
-									<h3>Leaflet</h3>
-									<p>Using Leaflet and digging more in deep into its structure is my current task, while developing frontend of a GIS application</p>
-								<!--<div id="leafletMap"></div>-->
-								</section>
-							</div>
-							<div class="4u">
-								<section class="box box-style1">
-									<span class="fa featured fa-pencil"></span>
-									<h3>OpenLayers</h3>
-									<p>Gaining deeper understanding of OpenLayers was a need for finisnhing task of my Bachelor thesis - creating light web-based GIS app.</p>
-								</section>
-							</div>
-							<div class="4u">
-								<section class="box box-style1">
-									<span class="fa featured fa-pencil"></span>
-									<h3>Google Maps</h3>
-									<p>As a starter of my insight into JavaScript mapping libraries, Google Maps API was one of my first experience of the type.</p>
-								</section>
-							</div>
-						</div>
-					</div>
-					<footer>
-					</footer>
-				</article>
-				
-				<article id="work">
-					<header>
-						<h2>Using different technologies.</h2>
-					</header>
-					<div class="container">
-						<div class="row">
-							<div class="4u">
-								<section class="box box-style1">
-									<span class="fa featured fa-code"></span>
-									<h3>JavaScript</h3>
-									<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
-								</section>
-							</div>
-							<div class="4u">
-								<section class="box box-style1">
-									<span class="fa featured fa-code"></span>
-									<h3>Ruby on Rails</h3>
-									<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
-								</section>
-							</div>
-							<div class="4u">
-								<section class="box box-style1">
-									<span class="fa featured fa-code"></span>
-									<h3>PostgreSQL</h3>
-									<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
-								</section>
-							</div>
-						</div>
-					</div>
-					<footer>
-						<p>And many more...</p>
-						<!--<a href="#portfolio" class="button button-big">See some of my recent work</a>-->
-					</footer>
-				</article>
+						<h3 class="stat-count">
+							132
+						</h3>
 
+						<h5 class="stat-title">
+							Projects Completed
+						</h5>
 
-				<article id="work">
-					<header>
-						<h2>Studies</h2>
-					</header>
-					<div class="container">
-						<div class="row">
-							<div class="12u">
-								<section class="box box-style1">
-									<h3>2010 - 2013</h3>
-									<p>Masaryk university (CZ), Faculty of Science - Geographical Cartography and Geoinformatics</p>
-									<p>Bachellor thesis "A design of the GIS application based on SpatiaLite DBMS" avaliable <a href="http://is.muni.cz/th/376304/prif_b?info=1;zpet=%2Fvyhledavani%2F%3Fsearch%3DZvara%26start%3D1">here</a>.</p>
-									<p>More info about the coarse is avaliable <a href="http://geogr.muni.cz/">here</a>.</p>
+					</div> <!-- /stat -->					
 
-									<h3>Feb - June 2012</h3>
-									<p>University of Ljubljana (SLO), Faculty of Civil Engineering and Geodesy - Geodesy and Geoinformatics</p>
-									
-									<h3>2013 - in progress</h3>
-									<p>Universitat Jaume I (ESP) - Master of Science in Geospatial Technologies</p>
-									<p>More info about the study coarse is avaliable <a href="http://mastergeotech.info/">here</a>.</p>
-									
-								</section>
-							</div>
-						</div>
-					</div>
-					<footer>
-						<a href="#contact" class="button button-big">Get in touch with me</a>
-					</footer>
-				</article>
+					<div class="bgrid stat">
 
-			</div>
+						<div class="icon-part">
+							<i class="icon-users"></i>
+						</div>
 
-<!--
-			<div class="wrapper wrapper-style3">
-				<article id="portfolio">
-					<header>
-						<h2>Awesome work makes happy clients.</h2>
-						<span>Proin odio consequat  sapien vestibulum ipsum primis sed amet consequat lorem dolore feugiat lorem ipsum dolore.</span>
-					</header>
-					<div class="container">
-						<div class="row">
-							<div class="12u">
-							</div>
-						</div>
-						<div class="row">
-							<div class="4u">
-								<article class="box box-style2">
-									<a href="http://flypixel.com/generic-smartphone/8949517882265310" class="image image-full"><img src="images/portfolio01.jpg" alt="" /></a>
-									<h3><a href="http://flypixel.com/generic-smartphone/8949517882265310">Magna feugiat</a></h3>
-									<p>Ornare nulla proin odio consequat.</p>
-								</article>
-							</div>
-							<div class="4u">
-								<article class="box box-style2">
-									<a href="http://flypixel.com/n33" class="image image-full"><img src="images/portfolio02.jpg" alt="" /></a>
-									<h3><a href="http://flypixel.com/n33">Veroeros primis</a></h3>
-									<p>Ornare nulla proin odio consequat.</p>
-								</article>
-							</div>
-							<div class="4u">
-								<article class="box box-style2">
-									<a href="http://flypixel.com/wood-ui-kit/3574765984616310" class="image image-full"><img src="images/portfolio03.jpg" alt="" /></a>
-									<h3><a href="http://flypixel.com/wood-ui-kit/3574765984616310">Lorem ipsum</a></h3>
-									<p>Ornare nulla proin odio consequat.</p>
-								</article>
-							</div>
-						</div>
-						<div class="row">
-							<div class="4u">
-								<article class="box box-style2">
-									<a href="http://flypixel.com/n33-pattern-set-1/3522389001865317" class="image image-full"><img src="images/portfolio04.jpg" alt="" /></a>
-									<h3><a href="http://flypixel.com/n33-pattern-set-1/3522389001865317">Tempus dolore</a></h3>
-									<p>Ornare nulla proin odio consequat.</p>
-								</article>
-							</div>
-							<div class="4u">
-								<article class="box box-style2">
-									<a href="http://flypixel.com/cityscape/9803996277226316" class="image image-full"><img src="images/portfolio05.jpg" alt="" /></a>
-									<h3><a href="http://flypixel.com/cityscape/9803996277226316">Feugiat aliquam</a></h3>
-									<p>Ornare nulla proin odio consequat.</p>
-								</article>
-							</div>
-							<div class="4u">
-								<article class="box box-style2">
-									<a href="http://flypixel.com/n33" class="image image-full"><img src="images/portfolio06.jpg" alt="" /></a>
-									<h3><a href="http://flypixel.com/n33">Sed amet ornare</a></h3>
-									<p>Ornare nulla proin odio consequat.</p>
-								</article>
-							</div>
-						</div>
-					</div>
-					<footer>
-						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
-						<a href="#contact" class="button button-big">Get in touch with me</a>
-					</footer>
-				</article>
-			</div>
--->
+						<h3 class="stat-count">
+							115
+						</h3>
 
-		<!-- Contact -->
-			<div class="wrapper wrapper-style4">
-				<article id="contact" class="container small">
-					<header>
-						<h2>Want to contact me? Go ahead!</h2>
-						
-					</header>
-					<div>
-						<div class="row">
-							<div class="12u">
-								<!--<form method="post" action="#">
-									<div>
-										<div class="row half">
-											<div class="6u">
-												<input type="text" name="name" id="name" placeholder="Name" />
-											</div>
-											<div class="6u">
-												<input type="text" name="email" id="email" placeholder="Email" />
-											</div>
-										</div>
-										<div class="row half">
-											<div class="12u">
-												<input type="text" name="subject" id="subject" placeholder="Subject" />
-											</div>
-										</div>
-										<div class="row half">
-											<div class="12u">
-												<textarea name="message" id="message" placeholder="Message"></textarea>
-											</div>
-										</div>
-										<div class="row">
-											<div class="12u">
-												<a href="#" class="button form-button-submit">Send Message</a>
-												<a href="#" class="button button-alt form-button-reset">Clear Form</a>
-											</div>
-										</div>
-									</div>
-								</form>-->
-								<p>You can catch me is via email at zvara.ondrej@gmail.com</p>
-							</div>
+						<h5 class="stat-title">
+							Happy Clients
+						</h5>
+
+					</div> <!-- /stat -->
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-badge"></i>
 						</div>
-						<div class="row">
-							<div class="12u">
-								<h3>Find me on ...</h3>
-								<ul class="social">
-									<li class="twitter"><a href="https://twitter.com/zvaraondrej" class="fa fa-twitter"><span>Twitter</span></a></li>
-									<li class="linkedin"><a href="http://es.linkedin.com/pub/ondrej-zvara/62/700/b1b/" class="fa fa-linkedin"><span>LinkedIn</span></a></li>
-									<li class="github"><a href="https://github.com/zvaraondrej" class="fa fa-github"><span>Github</span></a></li>
-									<!--
-									<li class="rss"><a href="#" class="fa fa-rss"><span>RSS</span></a></li>
-									<li class="instagram"><a href="#" class="fa fa-instagram"><span>Instagram</span></a></li>
-									<li class="foursquare"><a href="#" class="fa fa-foursquare"><span>Foursquare</span></a></li>
-									<li class="skype"><a href="#" class="fa fa-skype"><span>Skype</span></a></li>
-									<li class="soundcloud"><a href="#" class="fa fa-soundcloud"><span>Soundcloud</span></a></li>
-									<li class="youtube"><a href="#" class="fa fa-youtube"><span>YouTube</span></a></li>
-									<li class="blogger"><a href="#" class="fa fa-blogger"><span>Blogger</span></a></li>
-									<li class="flickr"><a href="#" class="fa fa-flickr"><span>Flickr</span></a></li>
-									<li class="vimeo"><a href="#" class="fa fa-vimeo"><span>Vimeo</span></a></li>
-									-->
-								</ul>
-								<hr />
-							</div>
+
+						<h3 class="stat-count">
+							12
+						</h3>
+
+						<h5 class="stat-title">
+							Awards Received
+						</h5>
+
+					</div> <!-- /stat -->									
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-light-bulb"></i>
 						</div>
-					</div>
-					<footer>
-						<ul id="copyright">
-							<li>&copy; 2013 Ondrej Zvara</li>
-							<!--<li>Images: <a href="http://fotogrph.com">fotogrph</a></li>-->
-							<li>Design: <a href="http://html5up.net/">HTML5 UP</a></li>
-						</ul>
-					</footer>
-				</article>
-			</div>
+
+						<h3 class="stat-count">
+							54
+						</h3>
+
+						<h5 class="stat-title">
+							Crazy Ideas
+						</h5>
+
+					</div> <!-- /stat -->
+				</div> <!-- /stats-list -->
+
+			</div> <!-- /twelve -->
+		</div> <!-- /row -->
+
+	</section> <!-- /stats -->
+
+	
+   <!-- contact
+   ================================================== -->
+	<section id="contact">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Contact</h5>
+   			<h1>I'd Love To Hear From You.</h1>
+
+   			<p class="lead">If you wanna get in touch, talk to me about a project collaboration or just say hi, fill up the awesome form below or send an email to lub@code9haiti.com and ~let's talk.</p>
+
+   		</div> 
+   	</div> <!-- /section-intro -->
+
+   	<div class="row contact-form">
+
+   		<div class="col-twelve">
+
+            <!-- form -->
+            <form name="contactForm" id="contactForm" method="post" action="">
+      			<fieldset>
+
+                  <div class="form-field">
+ 						   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
+                  </div>
+                  <div class="form-field">
+	      			   <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
+	               </div>
+                  <div class="form-field">
+	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+	               </div>                       
+                  <div class="form-field">
+	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
+	               </div>                      
+                 <div class="form-field">
+                     <button class="submitform">Submit</button>
+                     <div id="submit-loader">
+                        <div class="text-loader">Sending...</div>                             
+       				      <div class="s-loader">
+								  	<div class="bounce1"></div>
+								  	<div class="bounce2"></div>
+								  	<div class="bounce3"></div>
+								</div>
+							</div>
+                  </div>
+
+      			</fieldset>
+      		</form> <!-- Form End -->
+
+            <!-- contact-warning -->
+            <div id="message-warning">            	
+            </div>            
+            <!-- contact-success -->
+      		<div id="message-success">
+               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+      		</div>
+
+         </div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /contact-form -->
+
+   	<div class="row contact-info">
+
+   		<div class="col-four tab-full">
+
+   			<div class="icon">
+   				<i class="icon-pin"></i>
+   			</div>
+
+   			<h5>Where to find me</h5>
+
+   			<p>
+            8, rue Norgues, Christ-Roi<br>
+            Port-au-Prince, Ouest<br>
+            6110 HT
+            </p>
+
+   		</div>
+
+   		<div class="col-four tab-full collapse">
+
+   			<div class="icon">
+   				<i class="icon-mail"></i>
+   			</div>
+
+   			<h5>Email Me At</h5>
+
+   			<p>lub@code9haiti.com<br>
+			   	info@code9haiti.com			     
+			   </p>
+
+   		</div>
+
+   		<div class="col-four tab-full">
+
+   			<div class="icon">
+   				<i class="icon-phone"></i>
+   			</div>
+
+   			<h5>Call Me At</h5>
+
+   			<p>Phone: (+509) 3874 7485<br>
+			   </p>
+
+   		</div>
+   		
+   	</div> <!-- /contact-info -->
+		
+	</section> <!-- /contact -->
 
 
-	</body>
+   <!-- footer
+   ================================================== -->
+
+   <footer>
+     	<div class="row">
+
+     		<div class="col-six tab-full pull-right social">
+
+     			<ul class="footer-social">        
+			      <li><a target="_blank" href="https://facebook.com/lemayzeur"><i class="fa fa-facebook"></i></a></li>
+			      <li><a target="_blank" href="https://twitter.com/lemayzeur"><i class="fa fa-twitter"></i></a></li>
+			      <li><a target="_blank" href="https://instagram.com/lemayzeur"><i class="fa fa-instagram"></i></a></li>
+			      <li><a target="_blank" href="https://github.com/lemayzeur"><i class="fa fa-github"></i></a></li>
+			   </ul> 
+	      		
+	      </div>
+
+      	<div class="col-six tab-full">
+	      	<div class="copyright">
+		        	<span>© Copyright 2021.</span>         	
+		         </div>		                  
+	      	</div>
+
+	      	<div id="go-top">
+		         <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+		      </div>
+
+      	</div> <!-- /row -->     	
+   </footer>  
+
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
+
+   <!-- Java Script
+   ================================================== --> 
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
+
+</body>
+
 </html>
